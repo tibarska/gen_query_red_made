@@ -28,6 +28,20 @@ Iterator's response:
 ]
 ```
 
+
+### DB setup:
+1. Run container:
+
+``docker run -it -v /path_to_project/gen_query_red_made/volume:/volume -v /path_to_project/gen_query_red_made/data:/data <image_name>``
+
+2. Open **sqlite** (type command in docker container console):
+
+``sqlite3 volume/db/project.db``
+
+3. Write SQL-queries (pay attention to ``;``):
+
+``select count(*) from qrels;``
+
 ### DB schema:
 (foreign keys removed due to the missing docs.data)
 

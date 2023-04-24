@@ -9,12 +9,12 @@ All commands must be executed in the project directory (``gen_query_red_made``):
 ### Iterator usage:
 ``python iterator.py table_name batch_size shuffle``
 
-table_name - string
+- table_name - string
+- batch_size - number
+- shuffle - True/False
 
-batch_size - number
+Example (get ``shuffled`` data from table/view ``joined`` with ``batch_size=16``):
 
-shuffle - True/False
-Example:
 ``python iterator.py joined 16 True``
 
 

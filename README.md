@@ -31,4 +31,4 @@ Iterator's response:
 ### DB schema:
 (foreign keys removed due to the missing docs.data)
 
-![alt text](https://user-images.githubusercontent.com/21123064/234038422-e6a3fe0b-1160-48a8-a01e-96dfe6f86af5.png)
+![alt text](https://user-images.githubusercontent.com/21123064/234050815-045b2d36-a2fb-44f9-b004-3ee72e37040f.png)

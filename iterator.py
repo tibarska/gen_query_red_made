@@ -1,3 +1,4 @@
+import sys
 import sqlite3
 from utils import DB_PATH
 
@@ -36,8 +37,8 @@ class DBIterator:
 
 if __name__ == "__main__":
     # table_name = 'docs'
-    table_name = 'joined'
-    bs = 1
+    table_name = sys.argv[1]
+    bs = int(sys.argv[2])
     test_iterator = DBIterator(table_name, bs)
     for batch in test_iterator:
         print(batch)

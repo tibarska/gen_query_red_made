@@ -24,7 +24,7 @@ Iterator's response:
 [
   [(row_1),(row_2),(row_3)...(row_BS)],
   .....,
-  [(row_1),(row_2),(row_3)...(row_BS)]
+  [(row_k1),(row_k2),(row_k3)...(row_kBS)]
 ]
 ```
 

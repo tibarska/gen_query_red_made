@@ -1,12 +1,12 @@
 All commands must be executed in the project directory (``gen_query_red_made``):
 
-### Create container:
+### 1. Create container:
 ``docker build -t db_red .``
 
-### Run container and upload data:
+### 2. Run container and upload data:
 ``docker run -it -v /path_to_project/gen_query_red_made/volume:/volume -v /path_to_project/gen_query_red_made/data:/data db_red ./db_init.sh``
 
-### Iterator usage:
+### 3. Iterator usage:
 ``python iterator.py table_name batch_size shuffle``
 
 - table_name - string

@@ -12,4 +12,4 @@ https://msmarco.blob.core.windows.net/msmarcoranking/msmarco-docdev-qrels.tsv.gz
 ``docker build -t db_red .``
 
 ### Run container and upload data:
-``docker run -it -v /path_to_project/project/gen_query_red_made/volume:/volume -v /path_to_project/project/gen_query_red_made/data:/data db_red ./db_init.sh``
+``docker run -it -v /path_to_project/gen_query_red_made/volume:/volume -v /path_to_project/gen_query_red_made/data:/data db_red ./db_init.sh``
